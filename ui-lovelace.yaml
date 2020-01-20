@@ -1,0 +1,67 @@
+title: House Mediratta
+- url: /community/atomic_calendar/atomic_calendar.js
+  type: module 
+views:
+  - path: default_view
+     title: Home
+    badges:
+      - entity: binary_sensor.updater
+      - entity: person.aayush_mediratta
+      - entity: sensor.plex_windows
+      - entity: sun.sun
+    cards:
+      - type: media-control
+        entity: media_player.nest_bedroom
+      - type: media-control
+        entity: media_player.nest_living_room
+      - type: entities
+        entities:
+          - sensor.r7960p_gateway_kb_sec_received
+          - sensor.r7960p_gateway_bytes_sent
+          - sensor.r7960p_gateway_kb_sec_sent
+          - sensor.r7960p_gateway_packets_sec_received
+          - sensor.r7960p_gateway_packets_sent
+          - sensor.r7960p_gateway_packets_received
+          - sensor.r7960p_gateway_bytes_received
+        title: Office
+        show_header_toggle: true
+      - type: media-control
+        entity: media_player.nest_office
+      - type: light
+        entity: light.54640401d8f15b897451
+      - type: light
+        entity: light.546404012462ab283dcc
+      - type: media-control
+        entity: media_player.speakers
+      - type: media-control
+        entity: media_player.roku_living_room
+      - type: media-control
+        entity: media_player.roku_office
+      - type: media-control
+        entity: media_player.bedroom_tv
+      - type: entities
+        entities:
+          - remote.roku_living_room
+          - remote.roku_office
+          - remote.bedroom_tv
+        title: Remote
+      - type: entities
+        entities:
+          - switch.8082822598f4abdd70e7_2
+          - switch.8082822598f4abdd70e7_1
+        title: Switch
+      - type: weather-forecast
+        entity: weather.house_mediratta
+      -type: custom:banner-card
+        background: "#EDE7B0"
+        color: "#000000"
+        heading: "\U0001F6CB Living room"
+        link: /lovelace/living_room
+        entities:
+      - light.fibaro_system_fgd212_dimmer_2_level
+      - light.fibaro_system_fgd212_dimmer_2_level_3
+      - sensor.aeotec_zw100_multisensor_6_temperature_6
+      - entity: sensor.aeotec_zw100_multisensor_6_luminance_6
+        name: Lux
+      - entity: cover.fibaro_system_fgrm222_roller_shutter_controller_2_level
+        name: Roller shutter

@@ -1,0 +1,61 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+homeassistant:
+  name: House Mediratta
+  latitude: !secret latitude
+  longitude: !secret longitude
+  elevation: !secret elevation
+  unit_system: imperial
+  time_zone: America/New_York
+  #customize: !include_dir_merge_named customize
+  #auth_providers:
+  # - type: homeassistant
+updater:
+  include_used_components: true
+# Discover some devices automatically
+#discovery:
+# Enables support for tracking state changes over time.
+history:
+# View all events in a logbook
+# logbook:
+sun:
+system_health:
+default_config:
+map:
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+# http:
+#   base_url: example.duckdns.org:8123
+
+#themes
+#frontend:
+ # themes: !include themes/
+
+frontend:
+  themes: !include_dir_merge_named themes 
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+hacs:
+  token: !secret hacstoken
+
+tuya:
+  username: !secret tuyausername
+  password: !secret tuyapassword
+  country_code: "1"
+  platform: tuya
+
+discovery:
+media_player:
+  - platform: roku
+
+google:
+  client_id: !secret googleClientID
+  client_secret: !secret googleClientSecret

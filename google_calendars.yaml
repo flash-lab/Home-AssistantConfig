@@ -1,0 +1,126 @@
+
+- cal_id: kore.ai_5n705jecgc2vlvkg6lg59vou7o@group.calendar.google.com
+  entities:
+  - device_id: se_team_calendar
+    ignore_availability: true
+    name: SE Team Calendar
+    track: false
+
+- cal_id: pranay.upadhyay@kore.com
+  entities:
+  - device_id: pranay_upadhyay_kore_com
+    ignore_availability: true
+    name: pranay.upadhyay@kore.com
+    track: false
+
+- cal_id: raj@kore.com
+  entities:
+  - device_id: raj_kore_com
+    ignore_availability: true
+    name: raj@kore.com
+    track: false
+
+- cal_id: aayush.mediratta@kore.com
+  entities:
+  - device_id: aayush_mediratta_kore_com
+    ignore_availability: true
+    name: aayush.mediratta@kore.com
+    track: true
+
+- cal_id: rajavardhan.nalluri@kore.com
+  entities:
+  - device_id: rajavardhan_nalluri_kore_com
+    ignore_availability: true
+    name: rajavardhan.nalluri@kore.com
+    track: false
+
+- cal_id: brad.schweibold@kore.com
+  entities:
+  - device_id: brad_schweibold_kore_com
+    ignore_availability: true
+    name: brad.schweibold@kore.com
+    track: false
+
+- cal_id: philip.llanos@kore.com
+  entities:
+  - device_id: philip_llanos_kore_com
+    ignore_availability: true
+    name: philip.llanos@kore.com
+    track: false
+
+- cal_id: siva.pusa@kore.ai
+  entities:
+  - device_id: siva_pusa_kore_ai
+    ignore_availability: true
+    name: siva.pusa@kore.ai
+    track: false
+
+- cal_id: david@kore.com
+  entities:
+  - device_id: david_kore_com
+    ignore_availability: true
+    name: david@kore.com
+    track: false
+
+- cal_id: mini@kore.com
+  entities:
+  - device_id: mini_kore_com
+    ignore_availability: true
+    name: mini@kore.com
+    track: false
+
+- cal_id: amit@kore.com
+  entities:
+  - device_id: amit_kore_com
+    ignore_availability: true
+    name: amit@kore.com
+    track: false
+
+- cal_id: robin@kore.com
+  entities:
+  - device_id: robin_kore_com
+    ignore_availability: true
+    name: robin@kore.com
+    track: false
+
+- cal_id: himanshu.pitolwala@kore.com
+  entities:
+  - device_id: himanshu_pitolwala_kore_com
+    ignore_availability: true
+    name: himanshu.pitolwala@kore.com
+    track: false
+
+- cal_id: pankaj.patel@kore.ai
+  entities:
+  - device_id: pankaj_patel_kore_ai
+    ignore_availability: true
+    name: pankaj.patel@kore.ai
+    track: false
+
+- cal_id: nibhrit.vij@kore.com
+  entities:
+  - device_id: nibhrit_vij_kore_com
+    ignore_availability: true
+    name: nibhrit.vij@kore.com
+    track: false
+
+- cal_id: en.indian#holiday@group.v.calendar.google.com
+  entities:
+  - device_id: holidays_in_india
+    ignore_availability: true
+    name: Holidays in India
+    track: true
+
+- cal_id: en.usa#holiday@group.v.calendar.google.com
+  entities:
+  - device_id: holidays_in_united_states
+    ignore_availability: true
+    name: Holidays in United States
+    track: true
+
+- cal_id: p#weather@group.v.calendar.google.com
+  entities:
+  - device_id: weather
+    ignore_availability: true
+    name: Weather
+    track: false
