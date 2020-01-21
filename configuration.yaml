@@ -26,13 +26,12 @@ map:
 # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
 # http:
 #   base_url: example.duckdns.org:8123
-
 #themes
 #frontend:
  # themes: !include themes/
 
 frontend:
-  themes: !include_dir_merge_named themes 
+  themes: !include_dir_merge_named themes
 
 # Text to speech
 tts:
@@ -59,3 +58,7 @@ media_player:
 google:
   client_id: !secret googleClientID
   client_secret: !secret googleClientSecret
+
+calendar:
+  - platform: todoist
+    token : !secret todoistAPIKey
